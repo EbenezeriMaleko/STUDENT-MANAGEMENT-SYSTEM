@@ -1,0 +1,119 @@
+body{
+    font-family: "Arial", serif;
+    background-color: #f4f4f4;
+    /* overflow-x: hidden; */
+    margin: 0px;
+}
+.mainDisplay{
+   display: grid;
+   grid-template-columns: 40% auto;
+}
+.navbar{
+    background-color: #333;
+    /* width: 100%; */
+    height: 64px;
+    overflow: hidden;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+    font-size: 12x;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+ .menu{
+    list-style: none;
+    margin: 8px 0 0 0;
+ }
+ .sidebar{
+   margin-left: 0 20px;
+    /* z-index: 1; */
+    width: 230px;
+    height: 100%;
+    background-color: rgba(18, 17, 17, 0.75);
+    position:fixed ;
+    top: 0;
+    left: -1px;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 1s ease-out;
+    
+ }
+ .sidebar  li{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 2px 4px 2px 3px;
+    display: block;
+    width: 100%;
+ } 
+
+ .sidebar .close{
+    position: absolute;
+    top: -0.1px;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+ }
+#main{
+   /* position: relative;
+   left: 120px; */
+   transition: 1s ease-in-out;
+}
+@media(max-width:568px){
+   .menu{
+      display: none;
+   }
+   .navbar-nav{
+      /* display: none !important; */
+      /* list-style: none; */
+  }
+}
+.sidebar{
+   list-style: none;
+   margin: 0px 0 0 0;
+}
+.dropdown-menu {   
+   position: absolute;
+   top:30px;
+   z-index: 1;
+   margin-top: 0;
+   border: 1px solid rgba(0,0,0,.15);
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: #fff;
+   -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+   box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown-menu>li>a {
+   white-space: normal;
+}
+.side-nav a{
+   text-decoration: none;
+   font-size: 1.3rem;
+   padding: 10px 3px 10px 3px;
+   display: block;
+   color: #ccc;
+}
+.side-nav ul>li:hover{
+   background-color: #171313 !important;
+}
+.side-nav ul>li>a:hover{
+   color: wheat !important;
+}
+
+
+.side-nav li a:hover{
+   background-color: #171313;
+}
+.side-nav li>a:hover{
+   color: wheat;
+}
+table a{
+   text-decoration: none;
+}
+table .delete{
+   color:red;
+}
+
