@@ -35,10 +35,24 @@
 </head>
 
 <body> *@
+<style>
+*{
+    font-size:17px
+
+}
+span{
+    font-size:20px;
+    font-weight:bold;
+}
+
+         
+            
+        }
+</style>
 
     <div class="">
    
-    <nav class="navbar position-fixed fixed-top" style="height:80px; background-color:white;">
+    <nav class="navbar position-fixed fixed-top shadow" style="height:80px; background-color:white !important;">
             <ul class="nav pull-right top-nav "> 
                 <li>
                     <span><img src="../image/profile-removebg-preview.png" alt="..." width="70" class="rounded-circle"><span class="text-white" style="color:white;">  john </span></span>
@@ -52,18 +66,17 @@
             <!-- top right side -->
         </nav>
         <div id="slider" class="sidebar">
-            <i  class="close bg-success">&times;</i>
+            <i  class="close bg-success"></i>
            
             <ul class=" navbar-nav side-nav">
                 <li class="active">
-                    <a href="index.php"><i class="fa fa-fw fa-wheat"></i> Dashboard</a>
-                </li>
-                
+                    <a href="#"><i class="fa fa-fw fa-dashboard"></i> <i class="hide-s">Dashboard</i></a>
+                </li>                
                 <li>
-                    <a href="#"><i class="fa fa-fw fa-user"> </i> My Profile</a>
+                    <a href="#"><i class="fa fa-fw fa-user"> </i><i class="hide-s"> My Profile</i></a>
                 </li>
                 <li>
-                   <a href="#" ><i class="fa fa-fw fa-signout"> </i> Logout</a>                    
+                   <a href="#" ><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>                    
                 </li>
             </ul>
     
@@ -76,32 +89,110 @@
                 
             </div>
                     <div class="container">
-                    <div class="row "style="margin-left:190px;">
+                      <div class="screen">
+                            <div class="card shadow border-3 col-md-14" style="border-left:solid 5px grey">  
+                                <div class="card-body" >
+                                    <h3 class="card-title">Applicant Profile</h3>
+                                    <p>Please complete the registration by filling below required information .</p>                            
+                                </div>
+                            </div><br>
+                            <div class="card shadow ">
+                                    <div class="card-header" style="height:;"><span><i class="fa fa- fa-edit"></i></span><span>(SXXXX/XXXX/XXXX) - Email Address : johnDeo@gmail.com Personal Information(Mandatory fields ***)</span></div>
+                                    <div class="card-body">
+                                        <div class="h4"> Applicant Personal Information </div>
+
+                                      <form>
+                                        <div class="row ">
+                                            <div class="col-md-5  form-group">
+                                             <label for="Full Name">Full Name </label>
+                                            <input type="text" class="form-control" placeholder="full name">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="Birth_Date ">Birth Date </label>
+                                            <input type="text" class="form-control" placeholder="Birth Date ">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="Phone_Number">Phone Number</label>
+                                            <input type="text" class="form-control" placeholder="Phone Number">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="inputPassword4">Email Address</label>
+                                            <input type="email" class="form-control" placeholder="Email Address" >
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="PRIMARY">Primary School Graduation Year</label>
+                                            <input type="text" class="form-control" placeholder="2012 ">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="POBOX">P.O.BOX</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="inputPassword4">Applicant Region</label>
+                                            <input type="text" class="form-control" placeholder="First name">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="RELIGION">Choose Religion</label>
+                                            <input type="text" class="form-control" >
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="STATUS">Choose Marital Status</label>
+                                            <input type="text" class="form-control">
+                                            </div>
+                                           
+                                        </div>
+                                        </form>
+                                            
+                                    </div>
+                             </div>
+
+
                     
-
-
-                    <!-- here the form  -->
-                    <div class="card">
-                         <div class="card-body">
-                            <form action="">
-                                <div class="form-body">
-                                    <label for="name">User Name</label>
-                                    <input type="text" class="form-control" placeholder="Enter userName">
-                                </div>
-                                <div class="form-body">
-                                    <label for="name">User Name</label>
-                                    <input type="text" class="form-control" placeholder="Enter userName">
-                                </div>
-                            </form>
-                         </div>
-                    </div>
- 
-                    </div>
-                </div>  
+                        </div>
+                    </div>  
             </div>
         </div>
     </div>
-
 @* 
     <script src="js/jquery.js"></script>
 
