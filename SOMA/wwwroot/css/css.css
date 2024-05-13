@@ -66,6 +66,11 @@ body{
    margin-left:199px;
 }
 @media(max-width:568px){
+   .view{
+      display:flex;
+      flex-direction: column !important;
+        gap: 4px;
+   }
    .screen{
       margin-left:60px;
    }
@@ -140,4 +145,11 @@ table a{
 table .delete{
    color:red;
 }
-
+.view{
+   display:flex;
+   flex-direction: row;
+     justify-content: space-between;
+}
+.aaa{
+   padding: 12px 12px;
+}
