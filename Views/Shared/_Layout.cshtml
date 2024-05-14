@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB</title>
+    
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/css.min.css" rel="stylesheet">
+    <link href="../css/csstcard.min.css" rel="stylesheet">
+    <link href="../css/shadow.min.css" rel="stylesheet">
+    <link href="../css/border.min.css" rel="stylesheet">
+    <link href="../css/color.min.css" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="css/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css"> -->
+    <!-- Custom CSS -->
+    <link href="../css/css.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <style>
+body{
+        margin:0;
+        padding:0;
+
+    }
+    .login span{
+        color:red;
+        font-weight:bold;
+    
+    }
+    
+   
+      
+    </style>
+
+   
+</head>
+
+<body>
+
+    <header>
+       
+    </header>
+    @*v*@
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    @* </div> *@
+
+    @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - SOMA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+ <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+

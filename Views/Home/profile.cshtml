@@ -1,0 +1,207 @@
+@* <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB</title>
+    
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/css.min.css" rel="stylesheet">
+    <link href="css/csstcard.min.css" rel="stylesheet">
+    <link href="css/shadow.min.css" rel="stylesheet">
+    <link href="css/border.min.css" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="css/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css"> -->
+    <!-- Custom CSS -->
+    <link href="css.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <style>
+       
+      
+    </style>
+
+   
+</head>
+
+<body> *@
+<style>
+*{
+    font-size:17px
+
+}
+span{
+    font-size:20px;
+    font-weight:bold;
+}
+
+         
+            
+        }
+</style>
+
+    <div class="">
+   
+    <nav class="navbar position-fixed fixed-top shadow" style="height:80px; background-color:white !important;">
+            <ul class="nav pull-right top-nav "> 
+                <li>
+                    <span><img src="~/img/dit-logo-transparent.png" alt="..." width="70" class="rounded-circle"><span class="text-white" style="color:white;">  john </span></span>
+                    
+                   
+                </li>
+            </ul>
+    
+    
+    
+            <!-- top right side -->
+        </nav>
+        <div id="slider" class="sidebar">
+            <i  class="close bg-success"></i>
+           
+            <ul class=" navbar-nav side-nav">
+                  <li class="active">
+                    <a  asp-action="Apply" asp-controller="Home"><i class="fa fa-fw fa-dashboard"></i> <i class="hide-s">Dashboard</i></a>
+                </li>                
+                <li>
+                    <a  asp-action="profile" asp-controller="Home"><i class="fa fa-fw fa-user"> </i><i class="hide-s"> My Profile</i></a>
+                </li>
+                <li>
+                   <a  asp-action="Views_status" asp-controller="Home"><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Results</i></a>                    
+                </li>
+                <li>
+                   <a  ><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>                    
+                </li>
+            </ul>
+    
+    
+    
+            
+        </div>   
+        <div id="main">
+            <div  class=" ">
+                
+            </div>
+                    <div class="container">
+                      <div class="screen">
+                            <div class="card shadow border-3 col-md-14" style="border-left:solid 5px grey">  
+                                <div class="card-body" >
+                                    <h3 class="card-title">Applicant Profile</h3>
+                                    <p>Please complete the registration by filling below required information .</p>                            
+                                </div>
+                            </div><br>
+                            <div class="card shadow ">
+                                    <div class="card-header" style="height:;"><span><i class="fa fa- fa-edit"></i></span><span>(SXXXX/XXXX/XXXX) - Email Address : johnDeo@gmail.com Personal Information(Mandatory fields ***)</span></div>
+                                    <div class="card-body">
+                                        <div class="h4"> Applicant Personal Information </div>
+
+                                      <form>
+                                        <div class="row ">
+                                            <div class="col-md-5  form-group">
+                                             <label for="Full Name">Full Name </label>
+                                            <input type="text" class="form-control" placeholder="full name">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="Birth_Date ">Birth Date </label>
+                                            <input type="text" class="form-control" placeholder="Birth Date ">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="Phone_Number">Phone Number</label>
+                                            <input type="text" class="form-control" placeholder="Phone Number">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="inputPassword4">Email Address</label>
+                                            <input type="email" class="form-control" placeholder="Email Address" >
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="PRIMARY">Primary School Graduation Year</label>
+                                            <input type="text" class="form-control" placeholder="2012 ">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="POBOX">P.O.BOX</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="inputPassword4">Applicant Region</label>
+                                            <input type="text" class="form-control" placeholder="First name">
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="RELIGION">Choose Religion</label>
+                                            <input type="text" class="form-control" >
+                                            </div>
+                                            <div class="col-md-5 form-group">
+                                             <label for="inputPassword4">Form IV Index No</label>
+                                            <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+
+                                             <div class="col-md-5 form-group">
+                                              <label for="STATUS">Choose Marital Status</label>
+                                            <input type="text" class="form-control">
+                                            </div>
+                                           
+                                        </div>
+                                        </form>
+                                            
+                                    </div>
+                             </div>
+
+
+                    
+                        </div>
+                    </div>  
+            </div>
+        </div>
+    </div>
+@* 
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html> *@
