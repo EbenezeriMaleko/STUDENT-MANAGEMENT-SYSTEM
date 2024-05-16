@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\SOMA.csproj": {}
+    "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\SOMA.csproj": {
+    "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\SOMA.csproj",
+        "projectUniqueName": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj",
         "projectName": "SOMA",
-        "projectPath": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\SOMA.csproj",
+        "projectPath": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj",
         "packagesPath": "C:\\Users\\H P 1030 G4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\obj\\",
+        "outputPath": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\H P 1030 G4\\AppData\\Roaming\\NuGet\\NuGet.Config"
