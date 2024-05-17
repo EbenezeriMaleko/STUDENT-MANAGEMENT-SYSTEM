@@ -69,14 +69,17 @@ span{
             <i  class="close bg-success"></i>
            
             <ul class=" navbar-nav side-nav">
-                <li class="active">
-                    <a href="#"><i class="fa fa-fw fa-dashboard"></i> <i class="hide-s">Dashboard</i></a>
+                  <li class="active">
+                    <a  asp-action="Apply" asp-controller="Home"><i class="fa fa-fw fa-dashboard"></i> <i class="hide-s">Dashboard</i></a>
                 </li>                
                 <li>
-                    <a href="#"><i class="fa fa-fw fa-user"> </i><i class="hide-s"> My Profile</i></a>
+                    <a  asp-action="profile" asp-controller="Home"><i class="fa fa-fw fa-user"> </i><i class="hide-s"> My Profile</i></a>
                 </li>
                 <li>
-                   <a href="#" ><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>                    
+                   <a  asp-action="Views_status" asp-controller="Home"><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Results</i></a>                    
+                </li>
+                <li>
+                   <a  ><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>                    
                 </li>
             </ul>
     

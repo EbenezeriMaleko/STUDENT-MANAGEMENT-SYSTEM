@@ -43,7 +43,6 @@ C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\S
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.RazorAssemblyInfo.cache
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.RazorAssemblyInfo.cs
-C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.sourcelink.json
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\staticwebassets\msbuild.SOMA.Microsoft.AspNetCore.StaticWebAssets.props
@@ -59,3 +58,4 @@ C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\r
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.pdb
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.genruntimeconfig.cache
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\ref\SOMA.dll
+C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.sourcelink.json

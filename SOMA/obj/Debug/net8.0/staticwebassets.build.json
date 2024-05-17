@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XgM4EVRjgTGJQpwap4ps6nq2szKZI/hNOXiIqwGipOs=",
+  "Hash": "FzDpfGN6MLDhYFaREC9q/pOMhPSszn1cuF9UcuppygE=",
   "Source": "SOMA",
   "BasePath": "_content/SOMA",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\border.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\wwwroot\\css\\color.min.css",
+      "SourceId": "SOMA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\wwwroot\\",
+      "BasePath": "_content/SOMA",
+      "RelativePath": "css/color.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\color.min.css"
     },
     {
       "Identity": "C:\\Users\\H P 1030 G4\\Desktop\\d\\STUDENT-MANAGEMENT-SYSTEM\\soma\\wwwroot\\css\\css.css",
