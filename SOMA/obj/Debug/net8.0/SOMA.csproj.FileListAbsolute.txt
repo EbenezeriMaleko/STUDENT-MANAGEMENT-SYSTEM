@@ -59,3 +59,34 @@ C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\S
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.genruntimeconfig.cache
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\ref\SOMA.dll
 C:\Users\H P 1030 G4\Desktop\d\STUDENT-MANAGEMENT-SYSTEM\soma\obj\Debug\net8.0\SOMA.sourcelink.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\appsettings.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\SOMA.staticwebassets.runtime.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\SOMA.exe
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\SOMA.deps.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\SOMA.runtimeconfig.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\SOMA.dll
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\bin\Debug\net8.0\SOMA.pdb
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.AssemblyInfoInputs.cache
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.AssemblyInfo.cs
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.csproj.CoreCompileInputs.cache
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.RazorAssemblyInfo.cache
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.RazorAssemblyInfo.cs
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.sourcelink.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets\msbuild.SOMA.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets\msbuild.build.SOMA.props
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SOMA.props
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SOMA.props
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\scopedcss\bundle\SOMA.styles.css
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\scopedcss\projectbundle\SOMA.bundle.scp.css
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.dll
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\refint\SOMA.dll
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.pdb
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\SOMA.genruntimeconfig.cache
+C:\Users\DAUDI RAMADHANI\Desktop\PROJECT\STUDENT-MANAGEMENT-SYSTEM\SOMA\obj\Debug\net8.0\ref\SOMA.dll
