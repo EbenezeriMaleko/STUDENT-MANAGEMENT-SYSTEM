@@ -1,3 +1,4 @@
+@model SOMA.Models.UsersTable
 <style>
  .card{
     border-top:solid 5px grey;
@@ -56,25 +57,28 @@
                     <label for="inputEmail4">Secondary Education</label>
                      <select id="inputState" class="form-control">
                             <option selected>Choose...</option>
-                            <option>...</option>
+                            <option>Form IV</option>
+                            <option>Form VI</option>
+                            <option>Diploma</option>
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                    <label for="inputPassword4">Form IV Index No</label>
-                    <input type="password" class="form-control" id="inputPassword4">
+                    <label asp-for="FourNumber" >Form IV Index No</label>
+                    <input asp-for="FourNumber" class="form-control"/>
+                   
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                    <label for="inputPassword4">First Name</label>
-                    <input type="text" class="form-control is-valid"name="" id="">
-                    @* <input type="password" class="form-control is-valid" id="inputPassword4"> *@
+                      <label asp-for="Fname" >First Name</label>
+                    <input asp-for="Fname" class="form-control"/>
+                   
+                    
                     </div>
-                      <div class="form-group col-md-6">
-                    <label for="inputPassword4">Last Name</label>
-                    <input type="text" class="form-control is-valid"name="" id="">
-                    @* <input type="password" class="form-control is-valid" id="inputPassword4"> *@
+                    <div class="form-group col-md-6">
+                    <label asp-for="Lname" >Last Name</label>
+                    <input asp-for="Lname" class="form-control"/>
                     </div>
 
 
@@ -82,11 +86,14 @@
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email Address</label>
-                    <input type="email" class="form-control is-invalid" id="inputEmail4">
+                    <label asp-for="Email" >Email Address</label>
+                    <input asp-for="Email" class="form-control"/>
+                    
                     </div>
-                    <div class="form-group col-md-6">Confirm Email Address
-                    <input type="password" class="form-control" id="inputPassword4">
+                    <div class="form-group col-md-6">
+                    <label asp-for="Email" >Confirm Email Address</label>
+                    <input asp-for="Email" class="form-control"/>
+                    
                     </div>
                 </div>
                 </div>
@@ -95,12 +102,14 @@
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                    <label for="inputEmail4">Active Phone Number</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <label asp-for="PhoneNumber" >Active Phone Number</label>
+                    <input asp-for="PhoneNumber" class="form-control"/>
+                    
                     </div>
                     <div class="form-group col-md-6">
-                    <label for="inputPassword4">Confirm Active Phone Number</label>
-                    <input type="password" class="form-control is-valid" id="inputPassword4">
+                    <label asp-for="PhoneNumber" >Confirm Active Phone Number</label>
+                    <input asp-for="PhoneNumber" class="form-control"/>
+                    
                     </div>
                     </div>
                 
@@ -110,7 +119,8 @@
 
                  
        <div class="form-group "style="margin:22px;">
-        <input class="btn btn-primary form-control " value="Register">
+        <button class="btn btn-primary form-control ">Register</button>
+        @* <input class="btn btn-primary form-control " value="Register"> *@
        </div>
        <p class="text-center">By clicking Register, you're confirming that you've read our Terms & Conditions</p>
 
