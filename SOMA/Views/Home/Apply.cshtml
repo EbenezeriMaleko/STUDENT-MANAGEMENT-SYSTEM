@@ -1,142 +1,102 @@
 @model SOMA.Models.UsersTable
-<style>
- .card{
-    border-top:solid 5px grey;
-    border-radius:3px;
- }
- </style>
-<nav class="navbar navbar-light bg-light shadow" style="background-color:white !important; height:110px">
-  <a class="navbar-brand" href="#">
-    <img src="~/img/dit-logo-transparent.png"  height="90" class="d-inline-block align-top" alt="">
- 
-  </a>
+
+<nav class="navbar navbar-light bg-light shadow" style="background-color: white !important; height:110px">
+   <a class = "navbar-brand" href="#"><img src="~/img/dit-logo-transparent.png" height="90" class="d-inline-block align-top" alt=""></a>
 </nav>
-<div class="container" >
-<br>
-<div class="row">
-        <div class="col-md-4  p-4" >
+<div class="container"><br>
+    <div class="row">
+        <div class="col-md-4 p-4">
             <div class="card login">
                 <div class="card-header h4 text-center"> Login Information</div>
                 <div class="card-body">
-                    <h5 class="text-success " style="font-weight:bold; ">Upon successful Account Creation.</h5><br>
-                    <p> Applicant should use Form IV Index No <span> SXXXX/XXXX/YYYY</span> OR Equivalent Award Index No <span> EQYYYXXXXXX/YYYY</span> As Username And UPPERCASE surname As Password</p><br>
-                    <p>If Applicant Name:<span> Israel Maduhu Kangwe</span> as per NECTA registration then</p><br>
-
-                    <p>Example Username :<span> S0100/0007/2022 or EQ2019003390/2020</span></p><br>
-                    <p>Example Password :<span> KANGWE<span></p><br>
+                    <h5 class="text-success" style="font-weight:bold;">Upon successful Account Creation.</h5>
+                    <br>
+                    <p>Applicant should use Form IV Index No <span>SXXXX/XXXX/YYYY</span> OR Equivalent Award Index No <span>EQYYYXXXXXX/YYYY</span> As Username And UPPERCASE surname As Password</p>
+                    <br>
+                    <p>If Applicant Name:<span> Israel Maduhu Kangwe</span> as per NECTA registration then</p>
+                    <br>
+                    <p>Example Username :<span> S0100/0007/2022 or EQ2019003390/2020</span></p>
+                    <br>
+                    <p>Example Password :<span> KANGWE<span></p>
+                    <br>
                     <p>If you have already Registered</p>
                     <a asp-controller="Home" asp-action="Login" class="btn btn-primary">Click Here To Login</a>
                     <br><br>
-                    <span>Admission Officer:+255755089545, +255782337971,+255752475232</span>
-
-
-
-
+                    <span>Admission Officer: +255755089545, +255782337971, +255752475232</span>
                 </div>
-
             </div>
-        
         </div>
-        <div class="col-md-8 my-4" >
-
-        <div class="card">
-         <div class="card-header my-5 d-flex align-items-center" style="padding:1px 20px 50px 40px  ">  
-                 <a class="navbar-brand  d-flex align-items-center" href="#" style="padding-left:288px;padding-top:0; ">
-                    <img src="~/img/soma-icon.png"  height="90" class="d-inline-block align-top" alt="">
-                
-                </a>
-         </div>
-         <span class="h5 text-primary text-center">Application Form</span>
-         <div class="card-body">
-         <input value="Please Select below the Level you are applying for:" disabled class="form-control  shadow">
-         <br>
-         @* <form > *@
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label for="inputEmail4">Secondary Education</label>
-                     <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>Form IV</option>
-                            <option>Form VI</option>
-                            <option>Diploma</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-6">
-                    <label asp-for="FourNumber" >Form IV Index No</label>
-                    <input asp-for="FourNumber" class="form-control"/>
-                   
-                    </div>
+        <div class="col-md-8 my-4">
+            <div class="card">
+                <div class="card-header my-5 d-flex align-items-center" style="padding: 1px 20px 50px 40px;">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="~/img/soma-icon.png" height="90" class="d-inline-block align-top" alt="">
+                    </a>
                 </div>
+                <span class="h5 text-primary text-center">Application Form</span>
+                <div class="card-body">
+                    <input value="Please Select below the level you are applying for:" disabled class="form-control shadow"><br>
+                    <form asp-action="Register" method="post">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Secondary Education</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option >Form IV</option>
+                                    <option >Form VI</option>
+                                    <option >Diploma</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label asp-for="FourNumber">Form IV Index No</label>
+                                <input asp-for="FourNumber" class="form-control" required />
+                                <span asp-validation-for="FourNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="Fname">First Name</label>
+                                <input asp-for="Fname" class="form-control" required />
+                                <span asp-validation-for="Fname" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label asp-for="Lname">Last Name</label>
+                                <input asp-for="Lname" class="form-control" required />
+                                <span asp-validation-for="Lname" class="text-danger"></span>
+                            </div>
+                        </div>
 
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                      <label asp-for="Fname" >First Name</label>
-                    <input asp-for="Fname" class="form-control"/>
-                   
-                    
-                    </div>
-                    <div class="form-group col-md-6">
-                    <label asp-for="Lname" >Last Name</label>
-                    <input asp-for="Lname" class="form-control"/>
-                    </div>
+                        <div class ="form-row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="Email">Email Address</label>
+                                <input asp-for="Email" type="email" class="form-control" required />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label asp-for="ConfirmEmail">Confirm Email Address</label>
+                                <input asp-for="ConfirmEmail" type="email" class="form-control" required />
+                                <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+                            </div>
+                        </div>
 
-
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="PhoneNumber">Active Phone Number</label>
+                                <input asp-for="PhoneNumber" class="form-control" required />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label asp-for="ConfirmPhoneNumber">Confirm Active Phone Number</label>
+                                <input asp-for="ConfirmPhoneNumber" class="form-control" required />
+                                <span asp-validation-for="ConfirmPhoneNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-control">Register</button>
+                    </form>
+                    <p class="text-center">By clicking Register, you're confirming that you've read our Terms & Conditions</p>
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label asp-for="Email" >Email Address</label>
-                    <input asp-for="Email" class="form-control"/>
-                    
-                    </div>
-                    <div class="form-group col-md-6">
-                    <label asp-for="Email" >Confirm Email Address</label>
-                    <input asp-for="Email" class="form-control"/>
-                    
-                    </div>
-                </div>
-                </div>
-
-                
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label asp-for="PhoneNumber" >Active Phone Number</label>
-                    <input asp-for="PhoneNumber" class="form-control"/>
-                    
-                    </div>
-                    <div class="form-group col-md-6">
-                    <label asp-for="PhoneNumber" >Confirm Active Phone Number</label>
-                    <input asp-for="PhoneNumber" class="form-control"/>
-                    
-                    </div>
-                    </div>
-                
-                
-
-               
-
-                 
-       <div class="form-group "style="margin:22px;">
-        <button class="btn btn-primary form-control ">Register</button>
-        @* <input class="btn btn-primary form-control " value="Register"> *@
-       </div>
-       <p class="text-center">By clicking Register, you're confirming that you've read our Terms & Conditions</p>
-
-
-        
-
-               
-         @* </form> *@
-
-
-
-         </div>
-
-        
-          </div>
-        
+            </div>
         </div>
-</div>
+    </div>
 </div>

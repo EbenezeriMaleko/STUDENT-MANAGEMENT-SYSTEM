@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DAUDI RAMADHANI\\.nuget\\packages\\": {}
+    "/home/ebenezeri/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAUDI RAMADHANI\\Desktop\\PROJECT\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj",
+      "projectUniqueName": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/SOMA.csproj",
       "projectName": "SOMA",
-      "projectPath": "C:\\Users\\DAUDI RAMADHANI\\Desktop\\PROJECT\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj",
-      "packagesPath": "C:\\Users\\DAUDI RAMADHANI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAUDI RAMADHANI\\Desktop\\PROJECT\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\obj\\",
+      "projectPath": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/SOMA.csproj",
+      "packagesPath": "/home/ebenezeri/.nuget/packages/",
+      "outputPath": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DAUDI RAMADHANI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/ebenezeri/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
