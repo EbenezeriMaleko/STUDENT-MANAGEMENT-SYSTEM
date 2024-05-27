@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/Apply.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BcHBseS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/User/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9BcHBseS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/_ViewImports.cshtml]

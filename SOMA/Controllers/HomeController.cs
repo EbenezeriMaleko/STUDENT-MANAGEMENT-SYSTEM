@@ -22,17 +22,17 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Apply()
-    {
-          return View();
-    }
+    // public IActionResult Apply()
+    // {
+    //       return View();
+    // }
     public IActionResult Login()
     {
-          return View();
+        return View();
     }
-     public IActionResult Profile()
+    public IActionResult Profile()
     {
-          return View();
+        return View();
     }
 
     public IActionResult Views_status()
