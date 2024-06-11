@@ -13,7 +13,8 @@
                     <h5 class="text-success" style="font-weight:bold;">Upon successful Account Creation.</h5>
                     <br>
                     <p>Applicant should use Form IV Index No <span>SXXXX/XXXX/YYYY</span> OR Equivalent Award Index No
-                        <span>EQYYYXXXXXX/YYYY</span> As Username And UPPERCASE surname As Password</p>
+                        <span>EQYYYXXXXXX/YYYY</span> As Username And UPPERCASE surname As Password
+                    </p>
                     <br>
                     <p>If Applicant Name:<span> Israel Maduhu Kangwe</span> as per NECTA registration then</p>
                     <br>
@@ -39,7 +40,7 @@
                 <div class="card-body">
                     <input value="Please Select below the level you are applying for:" disabled
                         class="form-control shadow"><br>
-                    <form asp-action="Register" method="post">
+                    <form asp-controller="User" asp-action="Apply" method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Secondary Education</label>

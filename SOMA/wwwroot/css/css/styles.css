@@ -32,11 +32,11 @@ transform: translate(-50%,-50%);
 pointer-events: none;
 } */
 
- th{
-    /* background: black; */
-    /* color: white; */
+ /* th{
+    background: black; 
+    color: white; 
+ } */
 
-}
 
 /* .loader2{
     margin: 50px 50px 50px 50px ;
@@ -192,28 +192,3 @@ background-color:  grey;
     to{top: 1000px;    }
 
 }
-///////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
