@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9iFWTzpuKcf+PYcCbBYuCMao9H+3zsdszReW2HIYYMLZQzspWT3Hn6KfHY7RO8hmwxKXEciYW0dXrvbjlhG00g==",
+=======
+  "dgSpecHash": "o49v4r0/7U0=",
+>>>>>>> 0bdedc46cff1d1ce99f49953ec51ed6b764778a5
   "success": true,
   "projectFilePath": "C:\\Users\\H P 1030 G4\\Desktop\\v2\\STUDENT-MANAGEMENT-SYSTEM\\SOMA\\SOMA.csproj",
   "expectedPackageFiles": [
