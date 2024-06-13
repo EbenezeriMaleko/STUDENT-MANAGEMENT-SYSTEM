@@ -4105,19 +4105,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ebenezeri/.nuget/packages/": {}
+    "C:\\Users\\H P 1030 G4\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/SOMA.csproj",
+      "projectUniqueName": "C:\\Users\\H P 1030 G4\\Desktop\\v2\\STUDENT-MANAGEMENT-SYSTEM\\soma\\SOMA.csproj",
       "projectName": "SOMA",
-      "projectPath": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/SOMA.csproj",
-      "packagesPath": "/home/ebenezeri/.nuget/packages/",
-      "outputPath": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/obj/",
+      "projectPath": "C:\\Users\\H P 1030 G4\\Desktop\\v2\\STUDENT-MANAGEMENT-SYSTEM\\soma\\SOMA.csproj",
+      "packagesPath": "C:\\Users\\H P 1030 G4\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\H P 1030 G4\\Desktop\\v2\\STUDENT-MANAGEMENT-SYSTEM\\soma\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ebenezeri/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\H P 1030 G4\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4135,11 +4135,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4176,7 +4171,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

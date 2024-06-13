@@ -9,55 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SOMA
 build_property.RootNamespace = SOMA
-build_property.ProjectDir = /home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/
+build_property.ProjectDir = C:\Users\H P 1030 G4\Desktop\v2\STUDENT-MANAGEMENT-SYSTEM\SOMA\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA
+build_property.MSBuildProjectDirectory = C:\Users\H P 1030 G4\Desktop\v2\STUDENT-MANAGEMENT-SYSTEM\SOMA
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Admin/Admin_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5fcHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Admin/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Admin/Student_status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudF9zdGF0dXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wcm9maWxlLmNzaHRtbA==
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Admin/View_applicant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld19hcHBsaWNhbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Home/Views_status.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9WaWV3c19zdGF0dXMuY3NodG1s
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/User/Apply.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9BcHBseS5jc2h0bWw=
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Home/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Home/Views_status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3c19zdGF0dXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-hs88n57ipq
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/User/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBcHBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H P 1030 G4/Desktop/v2/STUDENT-MANAGEMENT-SYSTEM/SOMA/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-re17gwkh7f

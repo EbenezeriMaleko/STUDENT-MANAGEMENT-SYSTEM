@@ -5,3 +5,7 @@
  Look at **appsetting.json** then change the authentication according to your sql-server login
  At last run the following command **dotnet ef database update**
 Login to your database to see if user table is been created
+
+#john
+** created fontend of of login and admin adminpanel**
+kindly consider that pushed by(john)
