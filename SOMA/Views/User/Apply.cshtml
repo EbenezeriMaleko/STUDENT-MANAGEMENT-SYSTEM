@@ -23,7 +23,7 @@
                     <p>Example Password :<span> KANGWE<span></p>
                     <br>
                     <p>If you have already Registered</p>
-                    <a asp-controller="Home" asp-action="Login" class="btn btn-primary">Click Here To Login</a>
+                    <a asp-controller="User" asp-action="Login" class="btn btn-primary">Click Here To Login</a>
                     <br><br>
                     <span>Admission Officer: +255755089545, +255782337971, +255752475232</span>
                 </div>
@@ -40,7 +40,7 @@
                 <div class="card-body">
                     <input value="Please Select below the level you are applying for:" disabled
                         class="form-control shadow"><br>
-                    <form asp-controller="User" asp-action="Apply" method="post">
+                    <form  asp-action="Login" enctype="multipart/form-data" method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Secondary Education</label>
