@@ -6,6 +6,4 @@
  At last run the following command **dotnet ef database update**
 Login to your database to see if user table is been created
 
-#john
-** created fontend of of login and admin adminpanel**
-kindly consider that pushed by(john)
+## BEFORE PUSHING CHANGES MAKE SURE YOU PULL FIRST TO AVOID CONFLICTS 
