@@ -1,0 +1,111 @@
+
+<style>
+*{
+    font-size:17px
+
+}
+span{
+    font-size:20px;
+    font-weight:bold;
+}
+.{}
+
+         
+            
+        }
+</style>
+
+    <div class="">
+   
+    <nav class="navbar position-fixed fixed-top shadow" style="height:80px; background-color:white !important;">
+            <ul class="nav pull-right top-nav "> 
+                <li>
+                    <span><img src="~/img/dit-logo-transparent.png"alt="..." width="70" class="rounded-circle"><span class="text-white" style="color:white;">  john </span></span>
+                    
+                
+                </li>
+            </ul>
+    
+    
+    
+            <!-- top right side -->
+        </nav>
+        <div id="slider" class="sidebar">
+            <i  class="close bg-success"></i>
+           
+            <ul class=" navbar-nav side-nav">
+                 <li class="active">
+                    <a  asp-action="Apply" asp-controller="Home"><i class="fa fa-fw fa-dashboard"></i> <i class="hide-s">Dashboard</i></a>
+                </li>                
+                <li>
+                    <a  asp-action="profile" asp-controller="Home"><i class="fa fa-fw fa-users"> </i><i class="hide-s">Student list</i></a>
+                </li>
+                <li>
+                   <a  asp-action="Views_status" asp-controller="Home"><i class="fa fa-fw fa-user"> </i> <i class="hide-s">profile</i></a>                    
+                </li>
+                <li>
+                   <a  ><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>                    
+                </li>
+            </ul>
+    
+    
+    
+            
+        </div>   
+<div id="main">
+    <div  class=" ">
+         <div class="container">
+              <div class="screen">
+                <h2>List Of applicants</h2>
+                   <div class="">
+                            <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Course Name</th>
+                            <th scope="col">documents</th>
+                            <th scope="col" colspan="2">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>Bch of conputer Eng</td>
+                            <td><a href="#" class="btn btn-warning">student documents <i class="fa fas fa-download" ></i></a></td>
+                             <td><a class="btn btn-success" href="#" colspan="">Approvel</a><a href="#" class="btn btn-danger " colspan="">Desagree</a></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>Bch of Telecom</td>
+                            <td><a href="#" class="btn btn-warning">student documents <i class="fa fas fa-download" ></i></a></td>
+                             <td><a class="btn btn-success" href="#" colspan="">Approvel</a><a href="#" class="btn btn-danger" colspan="">Desagree</a></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>Bch of computer scen</td>
+                            <td><a href="#" class="btn btn-warning">student documents <i class="fa fas fa-download" ></i></a></td>
+                             <td><a class="btn btn-success" href="#" colspan="">Approvel</a><a href="#" class="btn btn-danger" colspan="">Desagree</a></td>
+                            </tr> 
+                            @* <td><</td>  *@
+
+                            </tr>
+                        </tbody>
+                        </table>
+
+                     </div>
+
+                   </div>
+                     
+                </div>  
+            </div>
+        </div>
+  </div>

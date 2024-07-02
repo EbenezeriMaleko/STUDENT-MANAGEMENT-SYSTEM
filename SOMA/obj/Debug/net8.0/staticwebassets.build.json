@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YyOHHhKJS21boWSESvnXQP+D2ACTuIQc5P05Vq09gMc=",
+  "Hash": "9VHP7FLfrCaalammPTNGqh+SFMDp7hnEMrIEoEzhRNk=",
   "Source": "SOMA",
   "BasePath": "_content/SOMA",
   "Mode": "Default",
@@ -281,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/csstcard.min.css"
+    },
+    {
+      "Identity": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/css/dflex.min.css",
+      "SourceId": "SOMA",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/",
+      "BasePath": "_content/SOMA",
+      "RelativePath": "css/dflex.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/dflex.min.css"
     },
     {
       "Identity": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/css/font-awesome/css/font-awesome.css",
@@ -1041,6 +1060,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/soma-icon.png"
+    },
+    {
+      "Identity": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/img/sound.jpg",
+      "SourceId": "SOMA",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/",
+      "BasePath": "_content/SOMA",
+      "RelativePath": "img/sound.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/sound.jpg"
     },
     {
       "Identity": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/js/site.js",

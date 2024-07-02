@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets/css/csstcard.min.css"
     },
     {
+      "Id": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/css/dflex.min.css",
+      "PackagePath": "staticwebassets/css/dflex.min.css"
+    },
+    {
       "Id": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/css/font-awesome/css/font-awesome.css",
       "PackagePath": "staticwebassets/css/font-awesome/css/font-awesome.css"
     },
@@ -211,6 +215,10 @@
     {
       "Id": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/img/soma-icon.png",
       "PackagePath": "staticwebassets/img/soma-icon.png"
+    },
+    {
+      "Id": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/img/sound.jpg",
+      "PackagePath": "staticwebassets/img/sound.jpg"
     },
     {
       "Id": "/home/ebenezeri/Desktop/SECOND YEAR/SECOND SEMESTER/OBJECT ORIRNTED PROGRAMMING/StudentManagemt/SOMA/wwwroot/js/site.js",

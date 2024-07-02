@@ -1,123 +1,75 @@
-@* <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>SB</title>
-    
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/css.min.css" rel="stylesheet">
-    <link href="css/csstcard.min.css" rel="stylesheet">
-    <link href="css/shadow.min.css" rel="stylesheet">
-    <link href="css/border.min.css" rel="stylesheet">
-    
-    <!-- <link rel="stylesheet" href="css/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/css/bootstrap.min.css"> -->
-    <!-- Custom CSS -->
-    <link href="css.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <style>
-       
-      
-    </style>
-
-   
-</head>
-
-<body> *@
+@{
+    var userName = ViewBag.userName;
+}
 <style>
-*{
-    font-size:17px
+    * {
+        font-size: 17px
+    }
 
-}
-span{
-    font-size:20px;
-    font-weight:bold;
-}
+    span {
+        font-size: 20px;
+        font-weight: bold;
+    }
 </style>
 
-    <div class="">
-   
+<div class="">
+
     <nav class="navbar position-fixed fixed-top shadow" style="height:80px; background-color:white !important;">
-            <ul class="nav pull-right top-nav "> 
-                <li>
-                    <span><img src="~/img/dit-logo-transparent.png" alt="..." width="70" class="rounded-circle"><span class="text-white" style="color:white;">  john </span></span>
-                    
-                   
-                </li>
-            </ul>
-    
-    
-    
-            <!-- top right side -->
-        </nav>
-        <div id="slider" class="sidebar">
-            <i  class="close bg-success"></i>
-           
-           <ul class=" navbar-nav side-nav">
-                <li class="active">
-                    <a  asp-action="apply" asp-controller="User"><i class="fa fa-fw fa-dashboard"></i> <i class="hide-s">Dashboard</i></a>
-                </li>                
-                <li>
-                    <a  asp-action="profile" asp-controller="Home"><i class="fa fa-fw fa-user"> </i><i class="hide-s"> My Profile</i></a>
-                </li>
-                <li>
-                   <a  asp-action="Views_status" asp-controller="Home"><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Results</i></a>                    
-                </li>
-                <li>
-                   <a  ><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>                    
-                </li>
+        <ul class="nav pull-right top-nav ">
+            <li>
+                <span><img src="~/img/dit-logo-transparent.png" alt="..." width="70" class="rounded-circle"><span
+                        class="text-white" style="color:white;"> @userName </span></span>
 
-            </ul>
-    
-    
-    
-            
-        </div>   
-        <div id="main">
-            <div  class=" ">
-                
-            </div>
-                    <div class="container">
-                    <div class="screen">
-                    
+            </li>
+        </ul>
 
+        <!-- top right side -->
+    </nav>
+    <div id="slider" class="sidebar">
+        <i class="close bg-success"></i>
 
-                    <!-- here the form  -->
-                        <h3>Welcome, JOHN DOE</h3>
-                        <hr>
-                        <p>You have successfully logged into DIT Admission System</p>
-                        <p>Application For Bachelor Round 5,Academic Year 2024/2025 is now open, DEADLINE <i class="text-danger">16/11/2023 00:00</i>
-                        For Bachelor -> Click on "Bachelor Application" link and carefully complete all the six(6) steps on the leftsidebar menu
-                        After complete submission of your application</p>
-                        <ul>
-                        <li>You can check your application status<span>(Bachelor Application -> Application Status)<span></li>
+        <ul class=" navbar-nav side-nav">
+            <li class="active">
+                <a asp-action="apply" asp-controller="User"><i class="fa fa-fw fa-dashboard"></i> <i
+                        class="hide-s">Dashboard</i></a>
+            </li>
+            <li>
+                <a asp-action="profile" asp-controller="Home"><i class="fa fa-fw fa-user"> </i><i class="hide-s"> My
+                        Profile</i></a>
+            </li>
+            <li>
+                <a asp-action="Views_status" asp-controller="Home"><i class="fa fa-fw fa-road"> </i> <i
+                        class="hide-s">Results</i></a>
+            </li>
+            <li>
+                <a><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>
+            </li>
 
-                        </ul><br>
+        </ul>
 
-                        <p><span>NOTE:</span> Submission of forged certificates or any false information is a criminal offence and will be handled according to the law.</p>
-                    </div>
-                </div>  
+    </div>
+    <div id="main">
+        <div class=" ">
+        </div>
+        <div class="container">
+            <div class="screen">
+                <!-- here the form  -->
+                <h3>Welcome, @userName</h3>
+                <hr>
+                <p>You have successfully logged into DIT Admission System</p>
+                <p>Application For Bachelor Round 5,Academic Year 2024/2025 is now open, DEADLINE <i
+                        class="text-danger">16/11/2023 00:00</i>
+                    For Bachelor -> Click on "Bachelor Application" link and carefully complete all the six(6) steps on
+                    the leftsidebar menu
+                    After complete submission of your application</p>
+                <ul>
+                    <li>You can check your application status<span>(Bachelor Application -> Application Status)<span>
+                    </li>
+                </ul><br>
+                <p><span>NOTE:</span> Submission of forged certificates or any false information is a criminal offence
+                    and will be handled according to the law.</p>
             </div>
         </div>
     </div>
-
-@* 
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html> *@
+</div>
+</div>

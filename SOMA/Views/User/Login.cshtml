@@ -1,48 +1,64 @@
- <style>
- *{
-    overflow:hidden
- }
-        @* .dd{
-           
-            display:flex;
-            @* flex-direction:column; *@
-            justify-content:center;
-            align-items:center;
-        }
-        .btn:focus{
-            outline:none;
-        }
+<style>
+    * {
+        overflow: hidden
+    }
 
+    @*.dd{@*display:flex;*@@*flex-direction:column;*@justify-content:center;
+    align-items:center;
 
-    </style>
-<div class="col-sm-8 dd my-5 ">
-        <div class="card shadow  mx-auto mb-3 " style="max-width: 540px;">
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin-left: 200px;
+    }
+</style>
+<div class="form">
+    <div class="col-sm-8 dd my-5   ">
+        <div class="card shadow  mx-auto   " style="max-width: 540px;">
             <div class="row  no-gutters">
                 <div class="col-md-4 col-xs-6">
-                <img src="tool/workshop.jpg" class="card-img "width="100%" height="100%" alt="...">
+                    <img src="~/img/soma-icon.png" class="card-img pl-2 " width="100%" height="100%" alt="..."
+                        style="margin:30px 0px 0 15px">
                 </div>
-                <div class="col-md-8" >
-                <div class="card-body "  >
-                    <h5 class="card-title text-center" id="last" >login page</h5>
-                    <form method="POST" >
-                        <div class="form-group">
-                            <input type="email" name="Email" class="form-control" placeholder="Email" id="email">
-                        </div>
+                <div class="col-md-8">
+                    <div class="card-body ">
+                        <h5 class="card-title text-center" id="last">login page</h5>
+                        <form method="POST" asp-controller="User" asp-action="Login">
+                            @if (ViewBag.Error != null)
+                            {
+                                <div class="alert alert-danger">
+                                    @ViewBag.Error
+                                </div>
+                            }
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email" id="email">
+                            </div>
 
-                        <div class="form-group">
-                            <input type="password" name="pasword" class="form-control" placeholder="password" id="pass">
-                        </div>
-                       
-                        <div class="form-group">
-                            <input type="submit" name="submit" class="d-block btn btn-outline-success" value="logIn" id="">
-                        </div>
-                        <p>Don,t have an account?<span><a asp-controller="Home" asp-action="Apply">Sign Up</a></span></p>
-                    </form>
-                    
-                </div>
+                            <div class="form-group">
+                                <input type="text" name="lname" class="form-control" placeholder="Last Name" id="lname">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="d-block btn btn-primary" value="Log In">
+                            </div>
+                            <p>Don't have an account? <span><a asp-controller="User" asp-action="Apply">Sign
+                                        Up</a></span></p>
+                        </form>
+
+
+                    </div>
                 </div>
             </div>
-            </div>
-
-
         </div>
+
+
+    </div>
+</div>

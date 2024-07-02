@@ -15,6 +15,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        if(HttpContext.Session.GetString("UserEmail")== null)
+        {
+            return RedirectToAction("Login", "User");
+        }
+        ViewBag.UserName = HttpContext.Session.GetString("UserName");
         return View();
     }
 
@@ -33,7 +38,7 @@ public class HomeController : Controller
         return View();
     }
 
-    // public IActionResult Privacy()
+    // public IActionResult ()
     // {
     //     return View();
     // }
