@@ -9,5 +9,6 @@ namespace SOMA.Models
 
         }
         public DbSet<UsersTable> Users { get; set; }
+        public DbSet<ApplicationTable> Applications {get; set;}
     }
 }

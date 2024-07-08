@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOMA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bdedc46cff1d1ce99f49953ec51ed6b764778a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+654ebde3ae99b33fb889045d4926cffb0359e84a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOMA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOMA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
