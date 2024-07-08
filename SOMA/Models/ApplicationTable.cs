@@ -20,10 +20,7 @@ namespace SOMA.Models
         [Display(Name = "Birth Date")]
         public DateTime BirthDate { get; set; }
 
-        // [Required]
-        // [StringLength(50, ErrorMessage = "Form IV Index Number cannot be longer than 50 characters.")]
-        // [Display(Name = "Form IV Index No")]
-        // public string FormIVIndexNo { get; set; }
+       
 
         [Required]
         [Display(Name = "Application Level")]
