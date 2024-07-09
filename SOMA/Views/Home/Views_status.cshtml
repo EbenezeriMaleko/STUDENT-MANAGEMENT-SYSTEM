@@ -65,7 +65,7 @@
         <div class="container">
             <div class="screen">
                 <p><i class="fa fas fa-edit"></i>
-                <h4>APPLICANT: FULL NAME</h4>
+                <h4>APPLICANT: @Model.User.Fname @Model.User.Lname</h4>
                 </p>
                 <hr>
                 <div class="card shadow border-1 col-md-14" style="border-left:solid 5px grey">
@@ -97,7 +97,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <td>Bachelor of Engineering in Computer Engineering</td>
+                                <td>@Model.CourseName</td>
                                 <td><span class="btn btn-primary">3 Years</span></td>
                                 </tr>
                             </tbody>
@@ -118,7 +118,7 @@
                             <h4 class="card-header "> Application Status:</h4>
                             <div class="card-body ">
                                 <h3 class="btn btn-primary">Application Level</h3>
-                                <div class="h4 shadow shadow-light aaa">Bachelor Degree</div>
+                                <div class="h4 shadow shadow-light aaa">@Model.ApplicantionLevel</div>
                                 <h3 class="btn btn-primary aaa">Application Round</h3>
                                 <div class="h4 shadow aaa">BATCH THREE</div>
                                 <h3 class="btn btn-primary ">Status</h3>
@@ -143,7 +143,7 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row">BECOE</th>
-                                            <td>Bachelor of Engineering in Computer Engineering</td>
+                                            <td>@Model.CourseName</td>
                                             <td>4</td>
                                             <td>1</td>
                                         </tr>

@@ -72,8 +72,26 @@ public class HomeController : Controller
 
     public IActionResult Views_status()
     {
-        return View();
+        var UserEmail = HttpContext.Session.GetString("UserEmail");
+
+        var user = _context.Users.FirstOrDefault(u => u.Email == UserEmail);
+
+        if(user == null){
+            _logger.LogError($"User with Email{UserEmail} not found");
+            return RedirectToAction("index");
+        }
+     
+       var applicationModel = _context.Applications.FirstOrDefault(a => a.UserId == user.Id);
+
+        if(applicationModel == null){
+            _logger.LogError($"Application for User ID {user.Id} not found");
+            return RedirectToAction("index");
+        }
+
+
+        return View(applicationModel);
     }
+    
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
