@@ -47,5 +47,8 @@ namespace SOMA.Models
         [Required]
         [Display(Name = "Marital Status")]
         public string? MaritalStatus { get; set; }
+
+        public string? Status {get; set;} = "Pending";
+    
     }
 }

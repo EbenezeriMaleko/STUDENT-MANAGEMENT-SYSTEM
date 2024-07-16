@@ -1,55 +1,65 @@
-// namespace v2;
-
-// public class
-// {
-    
-//      public IActionResult Index()
-//     {
-//         return View();
-//     }
-// }
-
-
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SOMA.Models;
+using System.Linq;
 
-namespace SOMA.Controllers;
-
-public class  AdminController : Controller
+namespace SOMA.Controllers
 {
-    private readonly ILogger<AdminController> _logger;
-
-    public AdminController(ILogger<AdminController> logger)
+    public class AdminController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ILogger<AdminController> _logger;
+        private readonly ApplicationDbContext _context;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+        public AdminController(ILogger<AdminController> logger, ApplicationDbContext context)
+        {
+            _logger = logger;
+            _context = context;
+        }
 
-    public IActionResult View_applicant()
-    {
-        return View();
-    }
-    public IActionResult Student_status()
-    {
-        return View();
-    }
-     public IActionResult Admin_profile()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-   
+        public IActionResult View_applicant()
+        {
+            var applicants = _context.Applications.Include(a => a.User).ToList();
+            return View(applicants);
+        }
 
-    // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    // public IActionResult Error()
-    // {
-    //     return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    // }
+        public IActionResult Student_status()
+        {
+            return View();
+        }
+
+        public IActionResult Admin_profile()
+        {
+            return View();
+        }
+
+        public IActionResult Approve(int id)
+        {
+            var application = _context.Applications.FirstOrDefault(a => a.Id == id);
+            if (application != null)
+            {
+                application.Status = "Approved";
+                _context.SaveChanges();
+            }
+            return RedirectToAction("View_applicant");
+        }
+
+        public IActionResult Disapprove(int id)
+        {
+            var application = _context.Applications.FirstOrDefault(a => a.Id == id);
+            if (application != null)
+            {
+                application.Status = "Disapproved";
+                _context.SaveChanges();
+            }
+            return RedirectToAction("View_applicant");
+        }
+    }
 }
 
 

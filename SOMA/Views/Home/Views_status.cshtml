@@ -2,7 +2,7 @@
 
 <style>
     * {
-        font-size: 17px
+        font-size: 17px;
     }
 
     span {
@@ -10,32 +10,21 @@
         font-weight: bold;
     }
 
-    . {}
-
-
-
-    }
+    .{}
 </style>
 
 <div class="">
-
     <nav class="navbar position-fixed fixed-top shadow" style="height:80px; background-color:white !important;">
         <ul class="nav pull-right top-nav ">
             <li>
                 <span><img src="~/img/dit-logo-transparent.png" alt="..." width="70" class="rounded-circle"><span
                         class="text-white" style="color:white;"> john </span></span>
-
-
             </li>
         </ul>
-
-
-
         <!-- top right side -->
     </nav>
     <div id="slider" class="sidebar">
         <i class="close bg-success"></i>
-
         <ul class=" navbar-nav side-nav">
             <li class="active">
                 <a asp-action="Apply" asp-controller="User"><i class="fa fa-fw fa-dashboard"></i> <i
@@ -53,91 +42,102 @@
                 <a><i class="fa fa-fw fa-road"> </i> <i class="hide-s">Logout</i></a>
             </li>
         </ul>
-
-
-
-
     </div>
     <div id="main">
         <div class=" ">
-
         </div>
         <div class="container">
             <div class="screen">
-                <p><i class="fa fas fa-edit"></i>
+                <p><i class="fa fas fa-edit"></i></p>
                 <h4>APPLICANT: @Model.User.Fname @Model.User.Lname</h4>
-                </p>
                 <hr>
                 <div class="card shadow border-1 col-md-14" style="border-left:solid 5px grey">
                     <div class="card-body">
                         <h3 class="card-title">My Applications - APPLICATION DEADLINE: <span
                                 class="btn btn-danger">15/11/2023 00:00</span></h3>
                         <p class="card-text">Click on step 1 button to start new application for Bachelor Or Proceed by
-                            clicking your last step on the left menu,Once the application is submitted can not be edited
+                            clicking your last step on the left menu, Once the application is submitted, it cannot be edited.
                         </p>
                     </div>
                 </div><br>
                 <div class="card shadow border-1 col-md-14" style="border-left:solid 5px grey">
                     <div class="card-body">
                         <div class="card-title h3">Admission Results: </div>
-
                     </div>
                 </div><br>
 
-                <div class="card shadow border-0 col-md-14">
-                    <div class="card-header bg-primary h4">Congratulations!!</div>
-                    <div class="card-body">
-                        <h5 class="card-title h4">You have been successfully offered an admission.</h5>
-
-                        <table class="table">
-                            <thead class="thead-light">
-                                <tr>
-                                    <th scope="col">Program Selected</th>
-                                    <th scope="col">Years of Study</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <td>@Model.CourseName</td>
-                                <td><span class="btn btn-primary">3 Years</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                    <div class="card-footer view" style="">
-                        <a href="#" class="btn btn-info">Click Here To Download Your Admition Letter </a>
-                        <a href="#" class="btn btn-warning  ">Click Here To Download Your Joining instruction <i
-                                class="fa fas fa-file"></i></a>
-                    </div>
-                </div><br>
-
+                @if(Model.Status == "Approved")
+                {
+                    <div class="card shadow border-0 col-md-14">
+                        <div class="card-header bg-primary h4">Congratulations!!</div>
+                        <div class="card-body">
+                            <h5 class="card-title h4">You have been successfully offered an admission.</h5>
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">Program Selected</th>
+                                        <th scope="col">Years of Study</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>@Model.CourseName</td>
+                                        <td><span class="btn btn-primary">3 Years</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer view">
+                            <a href="#" class="btn btn-info">Click Here To Download Your Admission Letter </a>
+                            <a href="#" class="btn btn-warning">Click Here To Download Your Joining instruction <i
+                                    class="fa fas fa-file"></i></a>
+                        </div>
+                    </div><br>
+                }
+                else if(Model.Status == "Disapproved")
+                {
+                    <div class="card shadow border-0 col-md-14">
+                        <div class="card-header bg-danger h4">Application Disapproved</div>
+                        <div class="card-body">
+                            <h5 class="card-title h4">We regret to inform you that your application has been disapproved.</h5>
+                        </div>
+                    </div><br>
+                }
+                else
+                {
+                    <div class="card shadow border-0 col-md-14">
+                        <div class="card-header bg-warning h4">Application Pending</div>
+                        <div class="card-body">
+                            <h5 class="card-title h4">Your application is still under review. Please check back later.</h5>
+                        </div>
+                    </div><br>
+                }
 
                 <div class="row">
                     <div class="col-md-5">
                         <div class="card shadow border-0">
-                            <h4 class="card-header "> Application Status:</h4>
-                            <div class="card-body ">
+                            <h4 class="card-header">Application Status:</h4>
+                            <div class="card-body">
                                 <h3 class="btn btn-primary">Application Level</h3>
-                                <div class="h4 shadow shadow-light aaa">@Model.ApplicantionLevel</div>
-                                <h3 class="btn btn-primary aaa">Application Round</h3>
-                                <div class="h4 shadow aaa">BATCH THREE</div>
-                                <h3 class="btn btn-primary ">Status</h3>
-                                <div class="h4 shadow aaa">SUBMITTED</div>
+                                <div class="h4 shadow shadow-light">@Model.ApplicantionLevel</div>
+                                <h3 class="btn btn-primary">Application Round</h3>
+                                <div class="h4 shadow">BATCH THREE</div>
+                                <h3 class="btn btn-primary">Status</h3>
+                                <div class="h4 shadow">@Model.Status</div>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div class="card card-primary  shadow shadow-non bg-successf border-0">
-                            <h4 class="card-header "> Program Choices:</h4>
-                            <div class="card-body ">
+                        <div class="card card-primary shadow bg-success border-0">
+                            <h4 class="card-header">Program Choices:</h4>
+                            <div class="card-body">
                                 <table class="table table-hover">
                                     <thead>
                                         <tr>
                                             <th scope="col">Code</th>
                                             <th scope="col">Name</th>
                                             <th scope="col">Year</th>
-                                            <th scope="col">Priolty</th>
+                                            <th scope="col">Priority</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -147,21 +147,11 @@
                                             <td>4</td>
                                             <td>1</td>
                                         </tr>
-                                        <tr>
                                     </tbody>
                                 </table>
                             </div>
-
                         </div>
-
-
                     </div>
-
-
-
-
-
-
                 </div>
             </div>
         </div>

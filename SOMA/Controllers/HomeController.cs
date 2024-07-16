@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SOMA.Models;
 
 namespace SOMA.Controllers;
@@ -70,28 +71,29 @@ public class HomeController : Controller
         return View(model);
     }
 
-    public IActionResult Views_status()
-    {
-        var UserEmail = HttpContext.Session.GetString("UserEmail");
+public IActionResult Views_status()
+{
+    var UserEmail = HttpContext.Session.GetString("UserEmail");
 
-        var user = _context.Users.FirstOrDefault(u => u.Email == UserEmail);
+    var user = _context.Users.FirstOrDefault(u => u.Email == UserEmail);
 
-        if(user == null){
-            _logger.LogError($"User with Email{UserEmail} not found");
-            return RedirectToAction("index");
-        }
-     
-       var applicationModel = _context.Applications.FirstOrDefault(a => a.UserId == user.Id);
-
-        if(applicationModel == null){
-            _logger.LogError($"Application for User ID {user.Id} not found");
-            return RedirectToAction("index");
-        }
-
-
-        return View(applicationModel);
+    if(user == null){
+        _logger.LogError($"User with Email {UserEmail} not found");
+        return RedirectToAction("index");
     }
-    
+
+    var applicationModel = _context.Applications
+                                    .Include(a => a.User)
+                                    .FirstOrDefault(a => a.UserId == user.Id);
+
+    if(applicationModel == null){
+        _logger.LogError($"Application for User ID {user.Id} not found");
+        return RedirectToAction("index");
+    }
+
+    return View(applicationModel);
+}
+
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
